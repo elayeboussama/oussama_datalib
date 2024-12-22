@@ -5,8 +5,8 @@ description = "Simplified data manipulation and analysis tools"
 authors = ["Oussama ELAYEB <elayeb.oussama2020@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/yourusername/datalib"
-repository = "https://github.com/yourusername/datalib"
+homepage = "https://github.com/elayeboussama/oussama_datalib"
+repository = "https://github.com/elayeboussama/oussama_datalib"
 keywords = ["data", "analysis", "machine learning", "visualization"]
 classifiers = [
     "Development Status :: 3 - Alpha",

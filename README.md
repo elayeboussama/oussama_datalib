@@ -86,6 +86,13 @@ datalib/
 │       ├── unsupervised.py
 │       └── visualization.py
 ├── tests/
+│       ├── test_analysis.py
+│       ├── test_data_processing.py
+│       ├── test_reinforcement.py
+│       ├── test_statistics.py
+│       ├── test_supervised.py
+│       ├── test_unsupervised.py
+│       └── test_visualization.py
 ├── docs/
 └── example/
     └── execution_example.py
