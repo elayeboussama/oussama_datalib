@@ -1,7 +1,6 @@
-Here's a README.md file for your datalib project:
-
-```markdown
 # DataLib
+
+[![Test](https://github.com/yourusername/datalib/actions/workflows/test.yml/badge.svg)](https://github.com/yourusername/datalib/actions/workflows/test.yml)
 
 A simplified Python library for data manipulation, analysis, and machine learning.
 
@@ -18,23 +17,17 @@ A simplified Python library for data manipulation, analysis, and machine learnin
 
 ## Installation
 
-This project uses Poetry for dependency management. To install:
+You can install the package directly from PyPI:
 
-1. First, install Poetry if you haven't already:
 ```bash
-curl -sSL https://install.python-poetry.org | python3 -
+pip install oussama-datalib
 ```
+Or using Poetry:
 
-2. Clone the repository:
 ```bash
-git clone <repository-url>
-cd datalib
+poetry add oussama-datalib
 ```
-
-3. Install dependencies:
-```bash
-poetry install
-```
+ 
 
 ## Usage
 
@@ -115,6 +108,30 @@ MIT License
 ## Author
 
 Oussama ELAYEB (elayeb.oussama2020@gmail.com)
+
+## Development Setup
+
+1. Clone the repository
+2. Install dependencies:
+```bash
+poetry install
 ```
 
-This README provides a comprehensive overview of your project, including installation instructions using Poetry, usage examples, testing procedures, and project structure. Users will be able to quickly understand how to get started with your library.
+3. Install pre-commit hooks:
+```bash
+poetry run pre-commit install
+```
+
+4. Run tests:
+```bash
+poetry run pytest
+```
+
+5. Run linting:
+```bash
+poetry run flake8
+poetry run black .
+poetry run isort .
+```
+```
+ 
