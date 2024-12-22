@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "oussama_datalib"
-version = "0.1.0"
+version = "0.2.0"
 description = "Simplified data manipulation and analysis tools"
 authors = ["Oussama ELAYEB <elayeb.oussama2020@gmail.com>"]
 license = "MIT"

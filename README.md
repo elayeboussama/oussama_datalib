@@ -1,6 +1,6 @@
 # DataLib
 
-[![Test](https://github.com/yourusername/datalib/actions/workflows/test.yml/badge.svg)](https://github.com/yourusername/datalib/actions/workflows/test.yml)
+[![Test](https://github.com/elayeboussama/oussama_datalib/actions/workflows/test.yml/badge.svg)](https://github.com/elayeboussama/oussama_datalib/actions/workflows/test.yml)
 
 A simplified Python library for data manipulation, analysis, and machine learning.
 
@@ -133,5 +133,25 @@ poetry run flake8
 poetry run black .
 poetry run isort .
 ```
-```
- 
+
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Contact
+
+For questions, feedback, or support:
+- Email: elayeb.oussama2020@gmail.com
+- GitHub Issues: [Create an issue](https://github.com/elayeboussama/oussama_datalib/issues)
+
+## Acknowledgments
+
+- Thanks to the Python community for the amazing libraries that made this project possible
+- Special thanks to all contributors who help improve this library
